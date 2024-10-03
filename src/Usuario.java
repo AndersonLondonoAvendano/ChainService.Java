@@ -1,4 +1,4 @@
-import java.util.Date;
+import java.util.List;
 
 public class Usuario {
 
@@ -10,10 +10,12 @@ public class Usuario {
     private String biografia;
 
     // Trabaja con :
+
     private Wallet wallet;
     private Reserva reserva;
-    private Publicacion publicacion;
-    private Reseña reseña;
+    private List<Publicacion> publicaciones;
+    private List<Resenia> reseñas;
+
 
 
     public Usuario(int id, String nombre, int fechaDeNacimiento, double saldo, String fotoPerfil, String biografia) {
