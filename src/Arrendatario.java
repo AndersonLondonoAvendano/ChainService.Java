@@ -2,9 +2,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Arrendatario extends Usuario{
-    private List<Publicacion> publicaciones;
+
     private String propiedades;
     private double ganancias;
+
+    //trabaja con
+
+    private List<Publicacion> publicaciones;
+
 
     public Arrendatario(int id, String nombre, int fechaDeNacimiento, double saldo, String fotoPerfil, String biografia, String propiedades, double ganancias) {
         super(id, nombre, fechaDeNacimiento, saldo, fotoPerfil, biografia);

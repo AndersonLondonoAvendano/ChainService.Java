@@ -12,8 +12,6 @@ public class Usuario {
     // Trabaja con :
 
     private Wallet wallet;
-    private Reserva reserva;
-    private List<Publicacion> publicaciones;
     private List<Resenia> reseñas;
 
 

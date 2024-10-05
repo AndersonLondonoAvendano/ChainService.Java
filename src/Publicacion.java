@@ -16,6 +16,7 @@ public class Publicacion {
     private Inmuebles inmuebles;
     //se compone de
     private List<Resenia> resenias;
+    private Arrendatario arrendatario;
 
 
     public Publicacion(int id, String titulo, String descripcion, double precio, String ubicacion, int cantidadHabitaciones, int calificacion, boolean disponibilidad) {

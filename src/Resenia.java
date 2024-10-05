@@ -5,6 +5,7 @@ public class Resenia {
     private Long idUsuario;
 
     // Trabaja con
+    private Usuario usuario;
     private Publicacion publicacion;
 
     public Resenia(String titulo, String contenido, Long idUsuario) {

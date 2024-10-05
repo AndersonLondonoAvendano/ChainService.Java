@@ -4,6 +4,8 @@ import java.util.List;
 public class Arrendador extends Usuario{
 
     private int cantidadReservas;
+
+    //trabaja con
     private List<Reserva>reservas;
 
     public Arrendador(int id, String nombre, int fechaDeNacimiento, double saldo, String fotoPerfil, String biografia) {

@@ -9,8 +9,8 @@ public class Reserva {
 
 
     // Trabajan con
-    private Usuario usuario;
     private Factura factura;
+    private Arrendador arrendador;
 
     public Reserva(int id, int idPublicacion, double precio, int cantidaDias, int cantidadPersonas, int cantidadHabitaciones) {
         this.id = id;
